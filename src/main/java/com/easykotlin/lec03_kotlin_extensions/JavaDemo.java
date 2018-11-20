@@ -5,6 +5,10 @@ import java.util.List;
 
 public class JavaDemo {
     public static void main(String[] args) {
+        test();
+    }
+
+    public static void test() {
         List<Integer> list = new ArrayList<>();
         list.add(1);
         list.add(2);
