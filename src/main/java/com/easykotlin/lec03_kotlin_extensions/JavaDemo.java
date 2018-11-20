@@ -23,5 +23,7 @@ public class JavaDemo {
         String str = "This Java Programming Language";
         String newStr = StringUtils.convertSpace2UnderScore(str);
         System.out.println(newStr);
+
+        System.out.println(StringUtils.exe("ls -R"));
     }
 }
