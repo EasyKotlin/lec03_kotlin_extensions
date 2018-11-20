@@ -15,5 +15,9 @@ public class JavaDemo {
         list.add(7);
         CollectionUtils.swap(list, 0, list.size() - 1);
         System.out.println(list);
+
+        String str = "This Java Programming Language";
+        String newStr = StringUtils.convertSpace2UnderScore(str);
+        System.out.println(newStr);
     }
 }

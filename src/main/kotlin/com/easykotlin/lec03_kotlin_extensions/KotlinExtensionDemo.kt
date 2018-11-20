@@ -5,8 +5,6 @@ fun main(args: Array<String>) {
     array.swap(0, array.size - 1)
     array.forEach { print("$it,") }
 
-
-
     println()
 
     println(array.sum)
@@ -23,5 +21,13 @@ fun main(args: Array<String>) {
     println(m3)
     val m4 = map.orderByValueDesc()
     println(m4)
+
+    val str = "This Kotlin Programming Language"
+    println(StringUtilsKotlin.convertSpace2UnderScore(str))
+    // Kotlin 仅仅能够做到这些？ Of Course not ... Let's see extension functions :）
+    println(str.convertSpace2UnderScore())
+
+    println("ls -R".exe())
+
 }
 
