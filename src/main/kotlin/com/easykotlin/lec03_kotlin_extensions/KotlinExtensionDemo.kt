@@ -26,6 +26,7 @@ fun main(args: Array<String>) {
     println(StringUtilsKotlin.convertSpace2UnderScore(str))
     // Kotlin 仅仅能够做到这些？ Of Course not ... Let's see extension functions :）
     println(str.convertSpace2UnderScore())
+    println(str convert "$")
 
     println("ls -R".exe())
 

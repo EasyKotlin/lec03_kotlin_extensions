@@ -9,7 +9,11 @@ object StringUtilsKotlin {
 
 
 fun String.convertSpace2UnderScore(): String {
-    return this.replace(" ".toRegex(), "_")
+    return this.replace(" ", "_")
+}
+
+infix fun String.convert(s: String): String {
+    return this.replace(" ", s)
 }
 
 fun String.exe(): String {
