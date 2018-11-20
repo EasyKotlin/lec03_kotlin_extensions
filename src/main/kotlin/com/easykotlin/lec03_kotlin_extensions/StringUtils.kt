@@ -27,7 +27,6 @@ fun String.exe(): String {
         inputLines += "$line\n"
     } while (line != null)
 
-
     var errorLines = ""
     val brErr = es.bufferedReader()
     var errLine: String?
@@ -36,7 +35,5 @@ fun String.exe(): String {
         errorLines += "$errLine\n"
     } while (errLine != null)
 
-
     return "$inputLines\n$errorLines"
-
 }
